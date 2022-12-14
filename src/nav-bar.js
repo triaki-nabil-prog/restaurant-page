@@ -12,7 +12,7 @@ let navBarModule = (() => {
             this._HomeButton.classList.add("Menu");
             this._MenuButton.classList.add("Home");
             this._ContactButton.classList.add("Contact");
-            
+
             this._HomeButton.textContent = 'Home';
             this._MenuButton.textContent = 'Menu';
             this._ContactButton.textContent = 'Contact';

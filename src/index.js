@@ -1,9 +1,10 @@
 console.log("Starting");
 import './style.css';
+import {navBarModule} from './nav-bar.js';
 import {HomePageModule} from './Home-page.js';
 import LoadContact from './Contact.js';
 import LoadMenu from './Menu.js';
-import {navBarModule} from './nav-bar.js';
+
 
 
 
@@ -17,11 +18,11 @@ import {navBarModule} from './nav-bar.js';
         // ContactButton: document.getElementById('Contact'),
 
         init: function () {
-            page.content.appendChild(HomePageModule.home);
             page.content.appendChild(navBarModule.nav);
+            page.content.appendChild(HomePageModule.home);
+            
         }
     }
     page.init();
     
-
 })();
