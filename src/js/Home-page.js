@@ -1,4 +1,4 @@
-import Logo from './logo.jpg';
+import Logo from '../img/logo.jpg';
 
 let HomePageModule = (() => {
 

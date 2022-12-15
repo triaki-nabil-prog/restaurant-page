@@ -1,9 +1,8 @@
-console.log("Starting");
 import './style.css';
-import { navBarModule } from './nav-bar.js';
-import { HomePageModule } from './Home-page.js';
-import { MenuPageModule } from './Menu.js';
-import { ContactPageModule } from './Contact.js';
+import { navBarModule } from './js/nav-bar.js';
+import { HomePageModule } from './js/Home-page.js';
+import { MenuPageModule } from './js/Menu.js';
+import { ContactPageModule } from './js/Contact.js';
 
 
 (() => {
@@ -62,8 +61,8 @@ import { ContactPageModule } from './Contact.js';
     }
     _page._init();
 
-    _page._AddGlobalEventListener("click", ".Home", _page._LoadHome);
-    _page._AddGlobalEventListener("click", ".Menu", _page._LoadMenu);
-    _page._AddGlobalEventListener("click", ".Contact", _page._LoadContact);
+    _page._AddGlobalEventListener("click", ".Home-button", _page._LoadHome);
+    _page._AddGlobalEventListener("click", ".Menu-button", _page._LoadMenu);
+    _page._AddGlobalEventListener("click", ".Contact-button", _page._LoadContact);
 
 })();

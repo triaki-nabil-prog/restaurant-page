@@ -9,9 +9,9 @@ let navBarModule = (() => {
         },
         _renderHtml: function () {
             this._nav.classList.add("Nav-bar");
-            this._HomeButton.classList.add("Home");
-            this._MenuButton.classList.add("Menu");
-            this._ContactButton.classList.add("Contact");
+            this._HomeButton.classList.add("Home-button");
+            this._MenuButton.classList.add("Menu-button");
+            this._ContactButton.classList.add("Contact-button");
 
             this._HomeButton.textContent = 'Home';
             this._MenuButton.textContent = 'Menu';

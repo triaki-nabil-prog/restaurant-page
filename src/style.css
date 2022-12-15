@@ -12,7 +12,7 @@ html {
     min-height: 100vh;
     width: 100vw;
     color: white;
-    background-image: url(./background.jpg);
+    background-image: url(./img/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -60,7 +60,7 @@ video {
     box-shadow: inset 0 -22px 16.5px -20px #8b8a84;
     border-radius: 20%/50%;
 
-    background-image: url(./text.jpg);
+    background-image: url(./img/text.jpg);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
@@ -115,7 +115,7 @@ video {
     grid-area: Name;
     font-size: 4rem;
     font-weight: bolder;
-    background-image: url(./text.jpg);
+    background-image: url(./img/text.jpg);
     background-size: contain;
     background-clip: text;
     -webkit-background-clip: text;
@@ -128,7 +128,7 @@ video {
     font-family: "FingerPaint";
     font-size: 3rem;
     font-weight: bolder;
-    background-image: url(./text.jpg);
+    background-image: url(./img/text.jpg);
     background-size: contain;
     background-clip: text;
     -webkit-background-clip: text;
@@ -142,11 +142,77 @@ video {
 
 }
 
+.Menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "item1 ." "title1 item2 " "item3 title2" "title3 item4 " ". title4";
+    color: black;
+    font-family: "FingerPaint";
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: rgb(1, 110, 1);
+    max-width: 700px;
+    margin: 100px auto;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+}
+
+
+.Menu img {
+    width: 220px;
+}
+
+.Menu :nth-child(1) {
+    grid-area: item1;
+    align-self: end;
+    justify-self: center;
+}
+
+.Menu :nth-child(2) {
+    grid-area: title1;
+    text-align: center;
+}
+
+.Menu :nth-child(3) {
+    grid-area: item2;
+    align-self: end;
+    justify-self: center;
+}
+
+.Menu :nth-child(4) {
+    grid-area: title2;
+    text-align: center;
+}
+
+.Menu :nth-child(5) {
+    grid-area: item3;
+    align-self: end;
+    justify-self: center;
+}
+
+.Menu :nth-child(6) {
+    grid-area: title3;
+    text-align: center;
+}
+
+.Menu :nth-child(7) {
+    grid-area: item4;
+    align-self: end;
+    justify-self: center;
+}
+
+.Menu :nth-child(8) {
+    grid-area: title4;
+    text-align: center;
+}
+
+
+
 @media only screen and (max-width: 800px) {
 
     body,
     html {
-        background-image: url(./rsz_background.jpg);
+        background-image: url(./img/rsz_background.jpg);
         background-size: contain;
         background-position: bottom;
     }
@@ -190,6 +256,16 @@ video {
     .Nav-bar button {
         padding: 5px 10px;
         transform: scale(1.15);
+    }
+
+    .Menu {
+        width: 70vw;
+        height: 100vh;
+        font-size: 1.5rem;
+    }
+
+    .Menu img {
+        width: 200px;
     }
 
 }
