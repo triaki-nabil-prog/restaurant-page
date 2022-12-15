@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*,\\n*::before,\\n*::after {\\n    margin: 0;\\n    padding: 0;\\n    box-sizing: border-box;\\n    font: inherit;\\n}\\n\\nbody,\\nhtml {\\n    min-height: 100vh;\\n}\\n\\nimg,\\npicture,\\nsvg,\\nvideo {\\n    display: block;\\n    max-width: 100%;\\n}\\n\\n.content {}\\n\\n.Nav-bar {\\n    display: flex;\\n    background-color: black;\\n    padding: 20px;\\n    justify-content: flex-end;\\n    gap: 5vw;\\n    font-size: 1.2rem;\\n    font-weight: bolder;\\n}\\n\\n.Nav-bar button {\\n    padding: 5px 25px;\\n    color: #A72A08;\\n    background-color:black;\\n    border: 0px;\\n    transition: all .2s ease-in-out;\\n\\n    -webkit-box-shadow: inset 0 -22px 16.5px -20px #fcdc4d;\\n    -moz-box-shadow: inset 0 -22px 16.5px -20px #fcdc4d;\\n    box-shadow: inset 0 -22px 16.5px -20px #fcdc4d;\\n    border-radius: 20%/50%;\\n}\\n\\n.Nav-bar button:hover {\\n    transform: scale(1.3);\\n\\n    -webkit-box-shadow: inset 0 -18px 16.5px -20px #fcdc4d;\\n    -moz-box-shadow: inset 0 -18px 16.5px -20px #fcdc4d;\\n    box-shadow: inset 0 -18px 16.5px -20px #fcdc4d;\\n    \\n\\n}\\n\\n.Nav-bar button:active {\\n    transform: translate(0px, 5px);\\n    -webkit-transform: translate(0px, 5px);\\n    \\n\\n    -webkit-box-shadow: inset 0 -22px 16.5px -20px #fcdc4d;\\n    -moz-box-shadow: inset 0 -22px 16.5px -20px #fcdc4d;\\n    box-shadow: inset 0 -22px 16.5px -20px #fcdc4d;\\n    \\n\\n}\\n\\n\\n.Home {}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./background.jpg */ \"./src/background.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./FingerPaint-Regular.ttf */ \"./src/FingerPaint-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./text.jpg */ \"./src/text.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./rsz_background.jpg */ \"./src/rsz_background.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*,\\n*::before,\\n*::after {\\n    margin: 0;\\n    padding: 0;\\n    box-sizing: border-box;\\n    font: inherit;\\n}\\n\\nbody,\\nhtml {\\n    min-height: 100vh;\\n    width: 100vw;\\n    color: white;\\nbackground-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\nbackground-position: center;\\nbackground-repeat: no-repeat;\\nbackground-attachment: fixed;\\nbackground-size: cover; \\nbackground-color: black;\\n}\\n\\nimg,\\npicture,\\nsvg,\\nvideo {\\n    display: block;\\n    max-width: 100%;\\n}\\n\\n@font-face {\\n    font-family: 'FingerPaint';\\n    src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format('TrueType');\\n}\\n\\n\\n#content {\\n    height: 100vh;\\n\\n}\\n\\n.Nav-bar {\\n    display: flex;\\n    padding-top: 20px;\\n    justify-content: flex-end;\\n    gap: 8vw;\\n    font-size: 1.4rem;\\n    font-weight: bolder;\\n\\n\\n}\\n\\n.Nav-bar button {\\n    padding: 5px 25px;\\n    background-color: rgba(0, 0, 0, 0);\\n    border: 0px;\\n    transition: all .2s ease-in-out;\\n    -webkit-box-shadow: inset 0 -22px 16.5px -20px #8b8a84;\\n    -moz-box-shadow: inset 0 -22px 16.5px -20px #8b8a84;\\n    box-shadow: inset 0 -22px 16.5px -20px #8b8a84;\\n    border-radius: 20%/50%;\\n\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n    background-size: cover;\\n    background-clip: text;\\n    -webkit-background-clip: text;\\n    color: transparent;\\n}\\n\\n.Nav-bar button:hover {\\n    transform: scale(1.3);\\n    -webkit-box-shadow: inset 0 -18px 16.5px -20px #8b8a84;\\n    -moz-box-shadow: inset 0 -18px 16.5px -20px #8b8a84;\\n    box-shadow: inset 0 -18px 16.5px -20px #8b8a84;\\n\\n\\n}\\n\\n.Nav-bar button:active {\\n    transform: translate(0px, 5px);\\n    -webkit-transform: translate(0px, 5px);\\n    -webkit-box-shadow: inset 0 -22px 16.5px -20px #8b8a84;\\n    -moz-box-shadow: inset 0 -22px 16.5px -20px #8b8a84;\\n    box-shadow: inset 0 -22px 16.5px -20px #8b8a84;\\n\\n\\n}\\n\\n.Nav-bar :nth-child(3) {\\n    margin-right: 50px;\\n}\\n\\n.Home {\\n    padding-left: 5vw;\\n    padding-top: 5vh;\\n    display: grid;\\n    grid-template-columns: min-content min-content;\\n    grid-template-areas: \\\"logo Name\\\" \\\"logo Type\\\";\\n}\\n\\n.Home .logo {\\n    grid-area: logo;\\n    border-radius: 50px;\\n    width: 200px;\\n}\\n\\n.Home .logo img {\\n    border-radius: 50%;\\n}\\n\\n.Home .Name {\\n    white-space: nowrap;\\n    font-family: \\\"FingerPaint\\\";\\n    margin-left: 40px;\\n    grid-area: Name;\\n    font-size: 4rem;\\n    font-weight: bolder;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n    background-size: contain;\\n    background-clip: text;\\n    -webkit-background-clip: text;\\n    color: transparent;\\n}\\n\\n.Home .Type{\\n    margin-left: 40px;\\n    grid-area: Type;\\n    font-family: \\\"FingerPaint\\\";\\n    font-size: 3rem;\\n    font-weight: bolder;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n    background-size:contain;\\n    background-clip: text;\\n    -webkit-background-clip: text;\\n    color: transparent;\\n}\\n\\n.Home .about{\\n    padding-top:50px;\\n    font-size: 1.5rem;\\n\\n    \\n}\\n\\n@media only screen and (max-width: 800px) {\\n    body,html{\\n        background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n        background-size: contain;\\n        background-position: bottom;\\n    }\\n    .Nav-bar :nth-child(3) {\\n        margin-right: 0px;\\n    }\\n    .Home{\\n        padding-top: 40px;\\n        padding-left: 0px;\\n        display: flex;\\n        flex-direction: column;\\n        align-items: center;\\n        text-align: center;\\n    }\\n    .Home .Name {\\n        margin-left: 0px ;\\n        font-size: 2rem;\\n        padding-top: 40px;\\n    }\\n    .Home .Type{\\n        margin-left: 0px ;\\n        font-size: 1.8rem;\\n    }\\n    .Home .about{\\n        font-size: 1.5rem;\\n        padding-top: 40px;\\n    }\\n    .Nav-bar {\\n        font-size: 1.5rem;\\n        justify-content: space-around;\\n    }\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -126,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"HomePageModule\": () => (/* binding */ HomePageModule)\n/* harmony export */ });\n/* harmony import */ var _logo_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logo.jpg */ \"./src/logo.jpg\");\n\n\nlet HomePageModule = (() => {\n\n    let _HomePage = {\n        _createHtmlElements: function () {\n            this._home = document.createElement('div');\n            this._logoWrap = document.createElement('div');\n            this._myLogo = new Image();\n            this._name = document.createElement('div');\n            this._type = document.createElement('div');\n            this._about = document.createElement('div');\n            this._intro = document.createElement('div');\n\n        },\n        _renderHtml: function () {\n            this._myLogo.src = _logo_jpg__WEBPACK_IMPORTED_MODULE_0__;\n            this._name.textContent = \"teriyaki's\";\n            this._type.textContent = \"Grill House\";\n            this._about.textContent = \"teriyaki's was created after a family came together to start a business\";\n            this._intro.textContent = \"The authentic taste comes from family recipes and from fresh, simple and tasteful ingredients straight from home.\";\n            \n            this._home.classList.add(\"Home\");\n            this._logoWrap.classList.add(\"logo\");\n            this._name.classList.add(\"Name\");\n            this._type.classList.add(\"Type\");\n            this._about.classList.add(\"about1\");\n            this._intro.classList.add(\"about2\");\n\n            this._logoWrap.appendChild(this._myLogo);\n            this._home.appendChild(this._logoWrap);\n            this._home.appendChild(this._name);\n            this._home.appendChild(this._type);\n            this._home.appendChild(this._about);\n            this._home.appendChild(this._intro);\n        },\n    }\n\n    _HomePage._createHtmlElements();\n    _HomePage._renderHtml();\n    return { home: _HomePage._home }\n})();\n\n\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/Home-page.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"HomePageModule\": () => (/* binding */ HomePageModule)\n/* harmony export */ });\n/* harmony import */ var _logo_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logo.jpg */ \"./src/logo.jpg\");\n\n\nlet HomePageModule = (() => {\n\n    let _HomePage = {\n        _createHtmlElements: function () {\n            this._home = document.createElement('div');\n            this._logoWrap = document.createElement('div');\n            this._myLogo = new Image();\n            this._name = document.createElement('div');\n            this._type = document.createElement('div');\n            this._about = document.createElement('div');\n\n        },\n        _renderHtml: function () {\n            this._myLogo.src = _logo_jpg__WEBPACK_IMPORTED_MODULE_0__;\n            this._name.textContent = \"BURGER FACTORY\";\n            this._type.textContent = \"Best in Town\";\n            this._about.textContent = \"The authentic taste comes from family recipes and from fresh, simple and tasteful ingredients straight from home.\";\n            \n            this._home.classList.add(\"Home\");\n            this._logoWrap.classList.add(\"logo\");\n            this._name.classList.add(\"Name\");\n            this._type.classList.add(\"Type\");\n            this._about.classList.add(\"about\");\n\n            this._logoWrap.appendChild(this._myLogo);\n            this._home.appendChild(this._logoWrap);\n            this._home.appendChild(this._name);\n            this._home.appendChild(this._type);\n            this._home.appendChild(this._about);\n        },\n    }\n\n    _HomePage._createHtmlElements();\n    _HomePage._renderHtml();\n    return { home: _HomePage._home }\n})();\n\n\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/Home-page.js?");
 
 /***/ }),
 
@@ -160,13 +170,53 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/FingerPaint-Regular.ttf":
+/*!*************************************!*\
+  !*** ./src/FingerPaint-Regular.ttf ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3c3a9cdbff527a1cdb37.ttf\";\n\n//# sourceURL=webpack://restaurant-page/./src/FingerPaint-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/background.jpg":
+/*!****************************!*\
+  !*** ./src/background.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6dc4a828358a5cdc1912.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/background.jpg?");
+
+/***/ }),
+
 /***/ "./src/logo.jpg":
 /*!**********************!*\
   !*** ./src/logo.jpg ***!
   \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"af80d2ee1707832a7ab5.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/logo.jpg?");
+eval("module.exports = __webpack_require__.p + \"dac2517d93321281f4a6.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/logo.jpg?");
+
+/***/ }),
+
+/***/ "./src/rsz_background.jpg":
+/*!********************************!*\
+  !*** ./src/rsz_background.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fb37a09794d54766cb23.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/rsz_background.jpg?");
+
+/***/ }),
+
+/***/ "./src/text.jpg":
+/*!**********************!*\
+  !*** ./src/text.jpg ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1bd15a41a776dfeed605.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/text.jpg?");
 
 /***/ })
 
@@ -195,6 +245,9 @@ eval("module.exports = __webpack_require__.p + \"af80d2ee1707832a7ab5.jpg\";\n\n
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -267,6 +320,32 @@ eval("module.exports = __webpack_require__.p + \"af80d2ee1707832a7ab5.jpg\";\n\n
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
