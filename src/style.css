@@ -12,12 +12,12 @@ html {
     min-height: 100vh;
     width: 100vw;
     color: white;
-background-image: url(./background.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover; 
-background-color: black;
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
 }
 
 img,
@@ -122,36 +122,40 @@ video {
     color: transparent;
 }
 
-.Home .Type{
+.Home .Type {
     margin-left: 40px;
     grid-area: Type;
     font-family: "FingerPaint";
     font-size: 3rem;
     font-weight: bolder;
     background-image: url(./text.jpg);
-    background-size:contain;
+    background-size: contain;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.Home .about{
-    padding-top:50px;
+.Home .about {
+    padding-top: 50px;
     font-size: 1.5rem;
 
-    
+
 }
 
 @media only screen and (max-width: 800px) {
-    body,html{
+
+    body,
+    html {
         background-image: url(./rsz_background.jpg);
         background-size: contain;
         background-position: bottom;
     }
+
     .Nav-bar :nth-child(3) {
         margin-right: 0px;
     }
-    .Home{
+
+    .Home {
         padding-top: 40px;
         padding-left: 0px;
         display: flex;
@@ -159,21 +163,31 @@ video {
         align-items: center;
         text-align: center;
     }
+
     .Home .Name {
-        margin-left: 0px ;
+        margin-left: 0px;
         font-size: 2rem;
         padding-top: 40px;
     }
-    .Home .Type{
-        margin-left: 0px ;
+
+    .Home .Type {
+        margin-left: 0px;
         font-size: 1.8rem;
     }
-    .Home .about{
+
+    .Home .about {
         font-size: 1.5rem;
         padding-top: 40px;
     }
+
     .Nav-bar {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         justify-content: space-around;
     }
+
+    .Nav-bar button {
+        padding: 5px 10px;
+        transform: scale(1.15);
+    }
+
 }
