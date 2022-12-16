@@ -24,8 +24,8 @@ let MenuPageModule = (() => {
             this._MyitemTwo.src=itemTwo;
             this._MyitemThree.src=itemThree;
             this._MyitemFour.src=itemFour;
-            this._menuItemOne.textContent="Meat Burger";
-            this._menuItemTwo.textContent="DOUBLE Meat Burger";
+            this._menuItemOne.textContent="Beef Burger";
+            this._menuItemTwo.textContent="DOUBLE Beef Burger";
             this._menuItemThree.textContent="Chicken Burger";
             this._menuItemFour.textContent="DOUBLE Chicken Burger";
 

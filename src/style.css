@@ -36,17 +36,23 @@ video {
 
 #content {
     height: 100vh;
-
+    padding-top: 70px;
 }
 
 .Nav-bar {
+    height: 80px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     padding-top: 20px;
     justify-content: flex-end;
+    align-items: center;
     gap: 8vw;
     font-size: 1.4rem;
     font-weight: bolder;
-
+    z-index: 2;
 
 }
 
@@ -89,6 +95,7 @@ video {
 .Nav-bar :nth-child(3) {
     margin-right: 50px;
 }
+
 
 .Home {
     padding-left: 5vw;
@@ -143,10 +150,10 @@ video {
 }
 
 .Menu {
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "item1 ." "title1 item2 " "item3 title2" "title3 item4 " ". title4";
-    color: black;
     font-family: "FingerPaint";
     font-size: 1.4rem;
     font-weight: bolder;
@@ -156,6 +163,7 @@ video {
     backdrop-filter: blur(20px);
     padding: 20px;
 }
+
 
 
 .Menu img {
@@ -206,6 +214,33 @@ video {
     text-align: center;
 }
 
+.Contact{
+    height: 100vh;
+    width: 700px;
+    margin: 100px auto;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+}
+
+.Map{
+align-self: stretch;
+padding-bottom: 100px;
+}
+
+.contact-card{
+    font-family: "FingerPaint";
+    font-size: 1.5rem;
+    font-weight: bolder;
+color:black;
+border:2px solid #8b8a84;
+padding: 20px;
+background-color: #8b8a849d;
+}
 
 
 @media only screen and (max-width: 800px) {
@@ -251,17 +286,25 @@ video {
     .Nav-bar {
         font-size: 1.2rem;
         justify-content: space-around;
+        margin: 0px;
     }
 
     .Nav-bar button {
         padding: 5px 10px;
         transform: scale(1.15);
     }
+    .Nav-bar :nth-child(2) {
+        margin-left: 17px;
+    }
 
     .Menu {
         width: 70vw;
         height: 100vh;
         font-size: 1.5rem;
+    }
+    .Contact{
+        width: 70vw;
+        height: 100vh;
     }
 
     .Menu img {
