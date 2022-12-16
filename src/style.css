@@ -303,12 +303,19 @@ background-color: #8b8a849d;
         font-size: 1.5rem;
     }
     .Contact{
-        width: 70vw;
+        width: 80vw;
         height: 100vh;
     }
 
     .Menu img {
         width: 200px;
+    }
+    .Map{
+        padding-bottom: 20px;
+    }
+    .contact-card{
+        padding: 5px;
+        font-size: 1.1rem;
     }
 
 }
